@@ -1,0 +1,72 @@
+.lists-box {
+
+    border: 2px solid;
+    background: #6D9CB7;
+    position: relative;
+    width: 45%;
+    height: 55%;
+    top: 18%;
+    margin: auto;
+    white-space: nowrap;
+    border-radius: 20px 20px 10px 10px;
+}
+
+.lists-view-box {
+    background: #D9D9D9;
+
+    border-radius: 18px 18px 0 0;
+    position: relative;
+    top: -1px;
+    width: calc(100% + 1px);
+    height: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+.lists-list {
+
+    display: inline;
+    list-style: none;
+    position: relative;
+    top: 51%;
+    padding: 0px;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    position: relative;
+    bottom: 0;
+    background-color: #6D9CB7;
+    padding: 0 15px;
+    width: 40%;
+    height: 50%;
+    border: 1px solid;
+    border-left: none;
+    border-radius: 0 10px 0 0;
+    color: white;
+}
+
+.add-list {
+    position: relative;
+    left: 5px;
+    font-size: 10px;
+    top: 47%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 8px;
+    width: 16px
+}
+
+.add-list:active {
+    transform: scale(0.95)
+}
+
+.todo-list-items {
+    text-align: center;
+    position: relative;
+    width: 80%;
+    top: 10px;
+    margin: auto;
+    white-space: nowrap;
+}
